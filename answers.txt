@@ -1,7 +1,13 @@
 Q1: Why might be consider using git?
 
-Answer: It is important to use git for version control and to be able to view historical code changes.
+Answer: It is important to use git for version control and to be able to view historical code changes. In addition, it is useful for fostering collaboration within a team during development phases.
 
 Q2: What field could data science be applied to? Give and Example and how it might help
 
 Answer: Data science can be applied to the healthcare field in a multitude of ways. For example, we can use data science to help predict disease outbreaks, analyze trends in the spread of diseases, and in conjunction with machine learning for medical imaging.
+
+
+Q3: What is the difference between merging and rebasing?
+
+Answer: The difference between merging and rebasing is that when the git merge command is ran, the version histories from the different branches are combined into a merge commit, that has parent commits from the previously pushed branches. Git rebase moves the sequence of commits from one branch on top of another branch. The advantage of rebasing, is that we have a clear more linear commit history. 
+
